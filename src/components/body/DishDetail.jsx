@@ -21,7 +21,7 @@ const DishDetail = ({ dish }) => {
             <b>Price : ${dish.price}</b>
           </CardText>
           <hr />
-          <LoadComments />
+          <LoadComments comments={dish.comments} />
         </CardBody>
       </Card>
     </div>
