@@ -5,7 +5,7 @@ import myStore from './redux/store'
 import { Provider } from 'react-redux'
 
 function App() {
-
+  // console.log("App.jsx", myStore.getState());
   return (
     <>
       <div>
